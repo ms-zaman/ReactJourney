@@ -1,10 +1,11 @@
 const path = require('path')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const isProduction = process.env.mode === 'production';
-
+// const isProduction = process.env.mode === 'production';
+// mode: process.env.mode,
 module.exports = {
-    mode: process.env.mode,
+    
+    mode: 'development',
     devServer: {
         devMiddleware: {
             writeToDisk: true,

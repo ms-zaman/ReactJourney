@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
+  "scripts-original": {
     "start": "mode=development webpack serve",
     "build": "mode=production webpack"
+  },
+  "scripts": {
+    "start": "webpack serve",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "",
